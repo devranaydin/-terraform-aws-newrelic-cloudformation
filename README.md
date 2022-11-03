@@ -1,2 +1,2 @@
-# -terraform-aws-newrelic-cloudformation
+# terraform-aws-newrelic-cloudformation
 Newrelic Integration Aws Account
