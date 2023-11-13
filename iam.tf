@@ -11,7 +11,7 @@ resource "aws_iam_role" "newrelic-integration-role" {
         {
             Effect = "Allow"
             Principal = {
-                AWS = "arn:aws:iam::${var.aws_account_id}:root"
+                AWS = "arn:aws:iam::754728514883:root"
             }
             Action = "sts:AssumeRole"
             Condition ={

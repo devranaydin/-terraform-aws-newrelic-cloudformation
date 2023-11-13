@@ -4,12 +4,22 @@ variable "aws_account_id" {
   default = ""
 }
 
+variable "project_name" {
+  type = string
+  default = ""
+}
+
 variable "newrelic_account_id" {
   description = "Newrelic account id"
   type = string 
   default = ""
 }
 
+variable "newrelic_user_key" {
+  type = string
+  description = "usually prefixed with NRAK"
+  default = ""
+}
 
 variable "enable_newrelic_integration" {
   description = "Enable or disable monitor your AWS services with New Relic Infrastructure"

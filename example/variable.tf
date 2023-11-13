@@ -10,6 +10,12 @@ variable "aws_account_id" {
   default = ""
 }
 
+variable "project_name" {
+  description = "Project Name"
+  type = string 
+  default = ""
+}
+
 variable "newrelic_account_id" {
   description = "Newrelic account id"
   type = string 
@@ -19,5 +25,11 @@ variable "newrelic_account_id" {
 variable "newrelic_account_licence_key" {
   type =  string
   description = "License keys for agent configuration and metric, event, log and trace APIs"
+  default = ""
+}
+
+variable "newrelic_user_key" {
+  type = string
+  description = "usually prefixed with 'NRAK"
   default = ""
 }
